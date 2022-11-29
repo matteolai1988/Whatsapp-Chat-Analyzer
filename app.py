@@ -15,7 +15,7 @@ st.sidebar.title("Whatsapp Chat  Sentiment Analyzer")
 nltk.download('vader_lexicon')
 
 # File upload button
-uploaded_file = st.sidebar.file_uploader("Choose a file")
+uploaded_file = st.sidebar.file_uploader("full chat.txt")
 
 # Main heading
 st. markdown("<h1 style='text-align: center; color: grey;'>Whatsapp Chat  Sentiment Analyzer</h1>", unsafe_allow_html=True)
